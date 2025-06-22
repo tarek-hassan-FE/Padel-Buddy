@@ -1,9 +1,6 @@
 import { useState } from 'react'
 
-interface Player {
-  name: string;
-  gamesPlayed: number;
-}
+
 
 interface Match {
   courts: string[][];
